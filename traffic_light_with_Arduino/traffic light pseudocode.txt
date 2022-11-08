@@ -1,0 +1,10 @@
+The traffic light pseudoCode:
+1. The pins for the LEDs(green, yellow and red) are declared so that they show to which pin they are connected in the arduino board
+2. The LEDs are set as OUTPUT
+3. The functions lighting the RED led, green LED, yellow LED are made
+ For the red LED the following conditions are met: the red LED is turned ON and the yellow LED is turned OFF and the green LED is turned OFF.
+ For the yellow LED the following conditions are met: the red LED is turned OFF and  the yellow LED is turned ON and the green LED is turned OFF.
+ For the green LED the following conditions are met: the red LED is turned OFF and the yellow LED is turned OFF and the green LED is turned ON.
+ The functions make use of the AND gate logic gate
+4. In the loop function which executes always, the red LED is turned ON for a certain period of time , say 1 second followed by turning ON of the green LED for that set period of time and then the yellow LED is also turned ON for the same 
+of time. These steps are performed repetitively which replicate the traffic light system.
